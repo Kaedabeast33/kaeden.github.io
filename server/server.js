@@ -7,6 +7,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 app.use(express.static("public"))
+// app.use(express.static())
 
 
 app.listen(4050,console.log("she's a go on 4050"))
