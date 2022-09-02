@@ -7,7 +7,9 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 app.use(express.static("public"))
-app.use(express.static("index.html"))
+// app.use(express.then(res=>{
+// res.send
+// }))
 
 // app.use(express.static())
 
